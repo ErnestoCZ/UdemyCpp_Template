@@ -9,6 +9,9 @@ double mean_array_value(int *array, const std::uint32_t &length);
 double mean_array_value(double *array, const std::uint32_t &length);
 
 // Exercise 2
-struct Dataset;
+struct Dataset{
+    double mean_array_a;
+    double mean_array_b;
+}; // namespace computation
 
-} // namespace computation
+}
